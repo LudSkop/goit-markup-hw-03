@@ -117,19 +117,29 @@ img {
 /*. main-section1-hero. */
 .hero {
     background: #2e2f42;
+    padding-top: 191px;
+    padding-bottom: 289px;
 
 }
 .hero-title {
+    max-width: 496px;
+    margin: 0 auto;
+    padding-bottom: 48px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    width: 496px;
-    margin: 0 auto;
+   
 }
 .hero-button {
+    display: block;
+    margin: 0 auto;
+    
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
