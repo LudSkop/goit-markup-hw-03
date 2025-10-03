@@ -184,11 +184,13 @@ img {
     overflow: hidden;  
 }
 
-
+.values-item {
+    width: calc((100% - 72px) / 4); 
+}
 .values-title {
     margin-bottom: 8px;
     /*width: calc((100% - 24 * 3) / 4);*/
-    width: calc((100% - 72px) / 4); 
+ 
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
