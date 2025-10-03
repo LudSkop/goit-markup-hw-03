@@ -115,8 +115,11 @@ img {
 
 
 /*. main-section1-hero. */
+.container-hero {
+    background-color: #2e2f42;
+}
 .hero {
-    background: #2e2f42;
+    background-color: red;
     padding-top: 188px;
     padding-bottom: 188px;
 
@@ -156,6 +159,18 @@ img {
 
 
 /*. main-section2-values. */
+.values {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
+.values-list {
+    display:flex;
+    gap: 24px;
+}
+.container-values {
+    background-color: rgb(0, 255, 200);
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -171,6 +186,8 @@ img {
 
 
 .values-title {
+    padding-bottom: 8px;
+    width: calc((100% - 24 * 3) / 4);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -189,7 +206,23 @@ img {
 
 
 /* main-section3-team. */
+.container-team {
+    background-color: yellow;
+}
+.team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+.team-photo {
+    width: calc((100% - 24 * 3) / 4);
+    border-top-right-radius: 4px; 
+}
 .title {
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -198,13 +231,15 @@ img {
     text-transform: capitalize;
     color: #2e2f42;
 }
-.team {
-    background-color: #F4F4FD
-}
+
 .team-link {
     background-color: #FFFFFF;
 }
+.team-info {
+    margin-top: 32px;
+    margin-bottom: 32px;}
 .title-team {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
