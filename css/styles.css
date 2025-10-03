@@ -18,6 +18,9 @@ address {
 h1, h2, h3, h4, h5, h6, p {
 	margin: 0;
 }
+img {
+    display: block;   
+}
 
 
 /*  #common   для всіх секцій */
@@ -28,7 +31,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 /*.  page-header.  */
 .page-header {
-    width: 1158px;;
+    width: 1158px;
     border-bottom: 1px solid #e7e9fc;
 }
 .container-header {
