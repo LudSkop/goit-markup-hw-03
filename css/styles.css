@@ -31,9 +31,9 @@ img {
 }
 /*.  page-header.  */
 .page-header {
-    width: 1158px;
+    
     border-bottom: 1px solid #e7e9fc;
-    background: #fff;
+    
 }
 .container-header {
     display: flex;
@@ -72,8 +72,8 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:  #4d5ae5;
-    display: flex;
-    justify-content:flex-start;
+    
+
 }
 /*   #header-logo.    */
 .logo-part {
@@ -129,7 +129,7 @@ img {
 .hero-title {
     max-width: 496px;
     margin: 0 auto;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -276,7 +276,7 @@ img {
     padding-bottom: 120px;
 } 
 .portfolio-photo {
-    margin-bottom: 32;
+
 }
 .portfolio-info {
     padding: 32px 16px;
@@ -321,7 +321,7 @@ img {
     background-color: #2e2f42;
 } 
 .footer-text {
-    width: 264px;;
+    max-width: 264px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
