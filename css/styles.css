@@ -33,6 +33,7 @@ img {
 .page-header {
     width: 1158px;
     border-bottom: 1px solid #e7e9fc;
+    background: #fff;
 }
 .container-header {
     display: flex;
@@ -216,6 +217,7 @@ img {
 .team {
     padding-top: 120px;
     padding-bottom: 120px;
+    background: #f4f4fd;
 }
 .team-list {
     display: flex;
